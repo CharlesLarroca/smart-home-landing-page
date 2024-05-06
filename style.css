@@ -506,7 +506,136 @@
     color: #313131;
 }
 
-.clients-img{
+.clients-logo-container{
     width: 1131px;
     height: 246px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items:stretch;
+}
+
+.clients-logo-container img{
+    width: 261px;
+    height: 108px;
+}
+
+/* testimonal-container */
+
+.testimonials-container{
+    width: 1170px;
+    height: 912px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    top: 4243px;
+    left: 153px;
+}
+
+.testimonials-text-container{
+    width: 756px;
+    height: 169px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+}
+
+.title-testimonials{
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    font-size: 85px;
+    line-height: 85px;
+    letter-spacing: -3px;
+    color: #313131;
+}
+
+.text-testimonials{
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21.78px;
+    text-align: center;
+    color: #313131;
+}
+
+.testimonials-depoyment-container{
+    width: 1170px;
+    height: 571px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.depoyment-container{
+    width: 580px;
+    height: 273px;
+    border: 1px solid #E7EBEE;
+    background-color: #FAFAFA;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    align-items: start;
+    justify-content: space-evenly;
+}
+
+.depoyment-text{
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    font-style: italic;
+    font-size: 14px;
+    line-height: 30px;
+    width: 465px;
+    height: 90px;
+    position: relative;
+    left: 40px;
+}
+
+.depoyment-profile{
+    height: 48px;
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    position: relative;
+    left: 40px;
+}
+
+.depoyment-profile img{
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.profile-data{
+    /* width: 98px; */
+    height: 48px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.profile-name{
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 16.94px;
+}
+
+.profile-professional{
+    /* width: 98px; */
+    height: 15px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14.52px;
+}
+
+.testimonials-footer{
+    width: 115px;
+    height: 18px;
 }
